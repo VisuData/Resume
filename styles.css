@@ -169,6 +169,7 @@ footer {
     color: #E1D7B7; /* Soft beige text */
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -194,13 +195,14 @@ footer p {
 
     /* Adjust h1 for smaller screen */
     .home-container h1 {
-        font-size: 24px; /* Reduce font size */
+        font-size: 30px; /* Reduce font size */
         margin: 10px 0; /* Add some space around it */
     }
 
     /* Center h3 and ensure full width */
     .home-container h3 {
         width: 100%;
+        font-size: 20px;
         margin: 0;
         text-align: center;
     }
@@ -223,6 +225,8 @@ footer p {
     footer {
         padding: 10px;
         font-size: 14px;
+        bottom: 0;
+        left: 0;
     }
 
     footer .footer-links {
