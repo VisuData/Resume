@@ -182,55 +182,45 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    /* Adjust body font size */
-    body {
-        font-size: 16px;
-        padding: 10px;
-    }
-
-    /* Ensure tab container stacks vertically */
-    .tab-container {
+    /* Home container adjustments */
+    .home-container {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center; /* Center all text */
     }
 
-    /* Make text sections responsive */
-    h1, h2 {
-        font-size: 1.5rem;
+    /* Center h3 and ensure full width */
+    .home-container h3 {
+        width: 100%; /* Full width */
+        margin: 0; /* Remove any extra margins */
         text-align: center;
     }
-    h3 {
-        text-align: left;
-        margin-left: 0; /* Ensure no extra margin is present */
-    }
 
-    /* Wrap the p element at 50% */
-    p {
-        max-width: 50%;
+    /* Center paragraphs and adjust width for readability */
+    .home-container p {
+        max-width: 80%; /* Paragraphs limited to 80% width */
         margin-left: auto;
         margin-right: auto;
-        text-align: left; /* Ensure left alignment */
+        text-align: center;
     }
 
-    /* Images adjust to full width */
-    .right-image {
-        float: none;
-        width: 100%;
-        margin: 20px 0;
+    /* Center button */
+    .home-container .enter-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
     }
 
-    /* General section padding and margins */
-    section {
-        padding: 10px;
-        margin: 20px 0;
-    }
-}
-
-html {
-    font-size: 100%; /* Relative font scaling */
-}
-
-@media (max-width: 768px) {
-    html {
-        font-size: 90%; /* Slightly smaller font on small devices */
-    }
+    /* Adjust footer for mobile */
+    footer .footer-links {
+        flex-direction: column;
+      }
+    
+      footer .footer-links li {
+        margin: 10px 0;
+      }
 }
