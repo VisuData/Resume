@@ -192,6 +192,12 @@ footer p {
         text-align: center; /* Center all text */
     }
 
+    /* Adjust h1 for smaller screen */
+    .home-container h1 {
+        font-size: 24px; /* Reduce font size */
+        margin: 10px 0; /* Add some space around it */
+    }
+
     /* Center h3 and ensure full width */
     .home-container h3 {
         width: 100%;
