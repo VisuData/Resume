@@ -223,4 +223,18 @@ footer p {
       footer .footer-links li {
         margin: 0px 0;
       }
-}
+ }
+@media screen and (max-width: 480px) {
+    footer {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    footer .footer-links {
+      text-align: left;
+    }
+  
+    footer .footer-links li {
+      margin: 5px 0;
+    }
+  }
