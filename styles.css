@@ -176,17 +176,49 @@ footer p {
     margin: 0;
     font-size: 1rem;
 }
+/* Use percentage-based widths for flexibility */
+.container, .tab-content, .image {
+    width: 100%; /* Full width on smaller screens */
+}
 
 @media (max-width: 768px) {
+    /* Adjust body font size */
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    /* Ensure tab container stacks vertically */
     .tab-container {
         flex-direction: column;
     }
+
+    /* Make text sections responsive */
+    h1, h2, h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* Images adjust to full width */
     .right-image {
         float: none;
-        margin: 0 auto;
-        width: 100%; /* Full-width image on mobile */
+        width: 100%;
+        margin: 20px 0;
     }
-    body {
-        font-size: 16px;
+
+    /* General section padding and margins */
+    section {
+        padding: 10px;
+        margin: 20px 0;
+    }
+}
+
+html {
+    font-size: 100%; /* Relative font scaling */
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 90%; /* Slightly smaller font on small devices */
     }
 }
