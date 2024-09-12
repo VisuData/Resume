@@ -1,0 +1,179 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E2A5E; /* Dark navy text */
+}
+
+/* Home Page Styles */
+#home-page {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url('./assets/images/cubemesh.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    color: #E1D7B7; /* Soft beige text */
+    text-align: center;
+}
+.home-container {
+    text-align: left;
+}
+
+.quote {
+    font-size: 2.5rem;
+    font-weight: 300; /* Lighter font */
+    color: #E1D7B7; /* Soft beige */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    max-width: 45%;
+}
+.home-container h3 {
+    margin-top: 10px; /* Adjust top margin */
+    margin-left: 210px; /* Adjust bottom margin */
+    font-size: 2rem; /* Adjust the size if needed */
+}
+
+.home-container p {
+    margin-top: 15px; /* Adjust top margin */
+    margin-bottom: 15px; /* Adjust bottom margin */
+    margin-left: 65px;
+    font-size: 1rem; /* Adjust the size if needed */
+}
+.enter-button {
+    text-decoration: none;
+    background-color: #7C93C3;
+    color: #E1D7B7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-left: 250px;
+}
+
+.enter-button:hover {
+    background-color: #55679C;
+}
+
+
+/* Resume Page Styles */
+#resume-page {
+    background-color: #E1D7B7;
+}
+
+.tab-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.active-tab {
+    background-color: #55679C; /* Deep blue */
+}
+
+.tab-content {
+    display: block;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 16px;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+}
+
+header a:hover {
+    color: #0073e6;
+}
+
+/* Education Section */
+#education, #experience {
+    margin-top: 40px;
+}
+
+.degree, .job {
+    margin-bottom: 30px;
+}
+
+.degree h3, .job h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.degree p, .job p {
+    font-size: 16px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.degree ul, .job ul {
+    padding-left: 40px;
+    margin: 10px 0;
+}
+
+.degree ul li, .job ul li {
+    margin-bottom: 8px;
+}
+
+/* Right-aligned Image */
+.right-image {
+    float: right;
+    margin-left: 15px;
+    width: 300px;
+    height: auto;
+}
+
+/* Float clearing */
+.tab-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1E2A5E; /* Dark navy background */
+    color: #E1D7B7; /* Soft beige text */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
