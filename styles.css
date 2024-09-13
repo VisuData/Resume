@@ -220,7 +220,7 @@ footer p {
     }
     .tab-container {
         display: flex;
-        justify-content: space-between; /* Space tabs evenly */
+        flex-direction: column; /* Space tabs evenly */
         width: 100%; /* Ensure container spans full width */
     }
 
@@ -228,6 +228,7 @@ footer p {
         flex: 1; /* Each tab takes equal space */
         text-align: center; /* Center the text inside the tab */
         padding: 10px; /* Add padding for touch-friendly areas */
+        box-sizing: border-box;
     }
 
     /* Adjust footer for mobile */
