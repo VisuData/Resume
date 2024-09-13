@@ -219,8 +219,15 @@ footer p {
         padding: 10px 15px;
     }
     .tab-container {
-        flex-direction: column; /* Stack tabs vertically on smaller screens */
-        align-items: center;
+        display: flex;
+        justify-content: space-between; /* Space tabs evenly */
+        width: 100%; /* Ensure container spans full width */
+    }
+
+    .tab {
+        flex: 1; /* Each tab takes equal space */
+        text-align: center; /* Center the text inside the tab */
+        padding: 10px; /* Add padding for touch-friendly areas */
     }
 
     /* Adjust footer for mobile */
