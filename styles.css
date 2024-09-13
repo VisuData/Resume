@@ -197,11 +197,11 @@ footer p {
     /* Adjust h1 for smaller screens */
     .home-container h1 {
         max-width: 60%;
-        font-size: 36px;
+        font-size: 40px;
         margin: 0; /* Reset margin for consistency */
     }
     .home-container h3 {
-        font-size: 24px;
+        font-size: 20px;
         margin: 0;
     }
 
