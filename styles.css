@@ -191,26 +191,27 @@ footer p {
         align-items: center;
         height: 100vh;
         text-align: center;
-        gap: 20px; /* Adds space between the elements */
+        gap: 10px; /* Adds space between the elements */
     }
 
     /* Adjust h1 for smaller screens */
     .home-container h1 {
+        max-width: 60%;
         font-size: 36px;
         margin: 0; /* Reset margin for consistency */
     }
 
     /* Center paragraphs and adjust width */
     .home-container p {
-        max-width: 30%;
-        margin: 0; /* Reset margin for consistency */
+        max-width: 40%;
+        /* margin: 0; Reset margin for consistency */
         text-align: center;
     }
 
     /* Center the button */
     .home-container .enter-button {
         margin: 0;
-        padding: 10px 20px;
+        padding: 10px 15px;
     }
 
     /* Adjust footer for mobile */
