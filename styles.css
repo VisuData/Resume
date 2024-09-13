@@ -200,6 +200,10 @@ footer p {
         font-size: 36px;
         margin: 0; /* Reset margin for consistency */
     }
+    .home-container h3 {
+        font-size: 24px;
+        margin: 0;
+    }
 
     /* Center paragraphs and adjust width */
     .home-container p {
