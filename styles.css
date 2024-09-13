@@ -208,8 +208,8 @@ footer p {
     /* Center paragraphs and adjust width */
     .home-container p {
         max-width: 40%;
-        /* margin: 0; Reset margin for consistency */
-        text-align: center;
+        margin: 0; /* Reset margin for consistency */
+        /* text-align: center; */
     }
 
     /* Center the button */
