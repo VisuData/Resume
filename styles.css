@@ -190,35 +190,27 @@ footer p {
         justify-content: center;
         align-items: center;
         height: 100vh;
-        text-align: center; /* Center all text */
-    }
-
-    /* Adjust h1 for smaller screen */
-    .home-container h1 {
-        font-size: 36px; /* Reduce font size */
-        margin: auto; /* Add some space around it */
-    }
-
-    /* Center h3 and ensure full width */
-    .home-container h3 {
-        font-size: 20px;
-        margin: auto;
         text-align: center;
+        gap: 20px; /* Adds space between the elements */
     }
 
-    /* Center paragraphs and adjust width for readability */
+    /* Adjust h1 for smaller screens */
+    .home-container h1 {
+        font-size: 36px;
+        margin: 0; /* Reset margin for consistency */
+    }
+
+    /* Center paragraphs and adjust width */
     .home-container p {
         max-width: 30%;
-        margin: auto;
+        margin: 0; /* Reset margin for consistency */
         text-align: center;
     }
 
-    /* Center button */
+    /* Center the button */
     .home-container .enter-button {
-        display: block;
-        margin: auto;
-        width: auto;
-        margin-top: 20px;
+        margin: 0;
+        padding: 10px 20px;
     }
 
     /* Adjust footer for mobile */
@@ -227,14 +219,7 @@ footer p {
         font-size: 14px;
         bottom: 0;
         left: 0;
-    }
-
-    footer .footer-links {
-        flex-direction: column;
-        text-align: left;
-    }
-
-    footer .footer-links li {
-        margin: 5px 0;
+        width: 100%;
+        text-align: center;
     }
 }
