@@ -195,7 +195,7 @@ footer p {
 
     /* Adjust h1 for smaller screen */
     .home-container h1 {
-        font-size: 30px; /* Reduce font size */
+        font-size: 36px; /* Reduce font size */
         margin: 0 auto; /* Add some space around it */
     }
 
