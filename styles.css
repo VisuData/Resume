@@ -208,8 +208,8 @@ footer p {
 
     /* Center paragraphs and adjust width for readability */
     .home-container p {
-        max-width: 80%;
-        margin: 0 auto;
+        max-width: 30%;
+        margin: auto;
         text-align: center;
     }
 
@@ -218,6 +218,7 @@ footer p {
         display: block;
         margin: 0 auto;
         width: auto;
+        padding-top: 20px;
     }
 
     /* Adjust footer for mobile */
