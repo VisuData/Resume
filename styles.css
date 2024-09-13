@@ -218,7 +218,7 @@ footer p {
         display: block;
         margin: 0 auto;
         width: auto;
-        padding-top: 20px;
+        margin-top: 20px;
     }
 
     /* Adjust footer for mobile */
